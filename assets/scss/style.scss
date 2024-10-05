@@ -1,0 +1,143 @@
+.just-home {
+    position: relative;
+    &-image {
+        
+        overflow: hidden;
+       object-fit: contain;
+        height: 750px;
+      
+
+        
+     
+       
+    }
+    &-top {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        .span-let {
+            border: 1px solid black;
+            padding: 1px;
+            border-radius: 20px;
+            display: inline-block;
+           
+
+        }
+
+        h1 {
+            font-size: 55px;
+            color:  #1F4B43;
+            margin-top: 20px;
+        }
+
+        .span-search {
+            font-weight: 600;
+            text-align: center;
+            margin-top: 5px;
+            color:  #1F4B43;
+        }
+
+        .span-enter {
+            background-color: #fff;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            padding: 12px;
+            position: relative;
+            
+            
+
+
+        }
+        .search-logo {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding-right: 11px;
+            padding-top: 11px;
+            background-color: #E7C873;
+            padding: 11px;
+            margin: 1px;
+            border-radius: 20px;
+
+
+
+
+        }
+        .span-looking {
+            text-align: center;
+            font-weight: 200;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        .span-villa {
+            color: #fff;
+            padding: 7px;
+            border-radius: 15px;
+            background-color: rgba(255,255,255,0.3);
+            backdrop-filter: blur(5px);
+
+
+
+            
+           
+            &-logo {
+                
+                border-radius: 15px;
+                padding: 2px;
+                margin-right: 10px;
+                background-color: #fff;
+
+            }
+           
+
+          
+        
+            
+        }
+        .span-apartment {
+            color: #fff;
+            padding: 7px;
+            border-radius: 15px;
+            background-color: rgba(255,255,255,0.3);
+            backdrop-filter: blur(5px);
+
+            &-logo {
+                background-color: #fff;
+                border-radius: 15px;
+                padding: 2px;
+                margin-right: 10px;
+
+
+            }
+        }
+        .span-town {
+           color: #fff;
+
+         
+            padding: 7px;
+            border-radius: 15px;
+            background-color: rgba(255,255,255,0.3);
+            backdrop-filter: blur(5px);
+
+            &-logo {
+                background-color: #fff;
+                border-radius: 15px;
+                padding: 2px;
+                margin-right: 10px;
+
+
+            }
+            
+        }
+
+
+       
+    }
+     
+    }
+
+
+
